@@ -1,11 +1,17 @@
+@import 'https://fonts.googleapis.com/css?family=Cabin:400,500,600,700';
 nav{
   background-color: transparent;
   color: white;
   font-size: 30px;
   padding: 5px;
 }
+ul{
+  list-style: none;
+  padding: 20px;
+}
 li{
   display: inline;
+  padding:10px;
   /*color: white;
   text-decoration: none;*/
   /*text-align: center;*/
@@ -13,16 +19,39 @@ li{
 a{
   text-decoration: none;
   color: white;
-}
+  /*display: block;*/
+  /*width: 115px;
+  height: 25px;*/
+  background: transparent;
+  padding: 10px;
+  text-align: center;
+  /*border-radius: 5px;*/
+  font-weight: bold;
+  }
+
 a:hover{
-  text-decoration: underline;
+  text-decoration: none;
   cursor:pointer;
+}
+h1 {
+  font-family: "Cabin", sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  margin-top: 15%;
+}
+h4 {
+  margin-top: 15px;
+  font-size: 25px;
+  font-weight: 600;
 }
 body {
   text-align: center;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: white;
+  font-family: "Cabin", sans-serif;
+  margin: 0 auto;
+
 }
 .bg-image{
   background: url("http://wallpapercave.com/wp/kSQdCxM.jpg");
@@ -33,5 +62,4 @@ body {
   -o-background-size: cover;
   background-size: cover;
   background-attachment: fixed;
-  margin: 0 auto;
 }
