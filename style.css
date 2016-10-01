@@ -33,11 +33,16 @@ a:hover{
   text-decoration: none;
   cursor:pointer;
 }
-h1 {
+#home-heading {
   font-family: "Cabin", sans-serif;
   font-size: 40px;
   font-weight: 700;
   margin-top: 15%;
+}
+h1{
+  font-family: "Cabin", sans-serif;
+  font-size: 40px;
+  font-weight: 700;
 }
 h4 {
   margin-top: 15px;
@@ -49,6 +54,11 @@ h2 {
   font-size: 30px;
   font-weight: 600;
 }
+img{
+  float: left;
+  margin-left: 50px;
+  padding: 2px;
+}
 body {
   text-align: center;
   -webkit-font-smoothing: antialiased;
@@ -57,6 +67,13 @@ body {
   font-family: "Cabin", sans-serif;
   margin: 0 auto;
 
+}
+#about-container{
+  display: inline-block;
+  padding: 10px;
+}
+p{
+  padding: 10px;
 }
 .bg-image{
   background: url("http://wallpapercave.com/wp/kSQdCxM.jpg");
