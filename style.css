@@ -1,5 +1,6 @@
 @import 'https://fonts.googleapis.com/css?family=Cabin:400,500,600,700';
 nav{
+  /*font-family: "Cabin", sans-serif;*/
   background-color: transparent;
   color: white;
   font-size: 30px;
@@ -19,6 +20,7 @@ li{
 a{
   text-decoration: none;
   color: white;
+  /*font-size: 20px;*/
   /*display: block;*/
   /*width: 115px;
   height: 25px;*/
@@ -70,14 +72,42 @@ body {
 
 }
 #about-container{
+  display: inline;
+  padding: 10px;
+  margin: 5px;
+}
+main{
   display: inline-block;
+  padding: 10px;
+}
+.bio{
+  font-family: "Cabin", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
   padding: 10px;
 }
 p{
   font-family: "Cabin", sans-serif;
   font-weight: 500;
-  font-size: 18px;
+  font-size: 20px;
   padding: 10px;
+  /*display: justify-right;*/
+}
+#project-list{
+  list-style-type: decimal;
+  display: inline-block;
+  /*font-family: "Cabin", sans-serif;*/
+  padding: 15px;
+  margin: 5px;
+  
+}
+.projects{
+  font-family: "Cabin", sans-serif;
+  font-weight: 500;
+  padding: 10px;
+  font-size: 18px;
+  margin: 5px;
+  float: right;
 }
 .bg-image{
   background: url("http://wallpapercave.com/wp/kSQdCxM.jpg");
