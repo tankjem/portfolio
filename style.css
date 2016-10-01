@@ -57,21 +57,21 @@ h3 {
   font-family: "Cabin", sans-serif;
   font-size: 25px;
   font-weight: 700;
-  /*text-align: left;*/
+  text-align: left;
 
   
 }
 
 h4 {
-  margin-top: 15px;
+  margin-top: 10px;
   font-size: 20px;
   font-weight: 600;
 }
 
 img{
   float: left;
-  margin-left: 50px;
-  padding: 15px;
+  margin-left: 5px;
+  padding: 10px;
   border-radius: 5px;
 }
 body {
@@ -80,7 +80,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   color: white;
   font-family: "Cabin", sans-serif;
-  margin: 0 auto;
+ /* margin: 0 auto;*/
 
 }
 
@@ -93,9 +93,18 @@ main{
   font-family: "Cabin", sans-serif;
   font-weight: 400;
   font-size: 20px;
-  padding: 10px;
+  padding: 5px;
+  text-align: left;
 }
-
+strong{
+  font-family: "Cabin", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+}
+#tech-list{
+  list-style: none;
+  /*margin: 5px;*/
+}
 #project-list{
   /*list-style: lower-greek;*/
   display: inline-block;
@@ -103,6 +112,15 @@ main{
   padding: 15px;
   margin: 5px;
   
+}
+.tech{
+  font-family: "Cabin", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  position: relative;
+  display: inline-block;
+  /*padding:10px;*/
+  margin: 5px;
 }
 .projects{
   font-family: "Cabin", sans-serif;
@@ -112,23 +130,11 @@ main{
   margin: 5px;
   float: right;
 }
-.bg-image-about{
+
+.bg-image{
   display: block;
   overflow: auto;
-  background: url("https://static.pexels.com/photos/51021/pexels-photo-51021.jpeg");
-  width: 100%;
-  height: 100vh;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover all;
-  background-attachment: fixed;
-  /*background-repeat: repeat-y;*/
-}
-.bg-image{
-  /*display: block;
-  overflow: auto;*/
-  background: url("http://wallpapercave.com/wp/kSQdCxM.jpg");
+  background: url("images/spacebg.jpg");
   width: 100%;
   height: 100vh;
   -webkit-background-size: cover;
@@ -137,4 +143,7 @@ main{
   background-size: cover all;
   background-attachment: fixed;
   background-repeat: repeat-y;
+}
+#social{
+ margin-left: 40px;
 }
