@@ -144,6 +144,21 @@ strong{
   background-attachment: fixed;
   background-repeat: repeat-y;
 }
+.project-image{
+  width:500px;
+  height: auto;
+  left: 50%;
+  position: relative;
+  margin-left: -250px;
+  
+}
+span{
+  font-size: 22px;
+  font-family: "Cabin", sans-serif;
+  padding:15px;
+}
+
 #social{
- margin-left: 40px;
+ margin-left: 45px;
+ margin-top: 25px;
 }
